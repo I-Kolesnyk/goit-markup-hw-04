@@ -276,7 +276,7 @@ p {
 .clients-link:hover,
 .clients-link:focus {
   fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
 }
 /*Images*/
 .image {
@@ -380,14 +380,14 @@ p {
 .page-footer .socials-icon:focus {
   background-color: var(--accent-color);
 }
-.footer-title {
+.footer-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: var(--text-white-color);
 }
 /*Портфоліо*/
 .works-list .title {
